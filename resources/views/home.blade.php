@@ -32,6 +32,7 @@
         </div>
     </section>
     @include('components.category')
+    @include('components.other')
 
 </body>
 <footer>
