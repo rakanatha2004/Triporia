@@ -8,10 +8,6 @@
             </div>
             <!-- Details Section -->
             <div class="w-1/2 p-6">
-                <div class="button-top">
-                    <button class="text-black px-4 py-2 rounded aria-current=page">Details</button>
-                    <button class="text-black px-4 py-2 rounded">Maps</button>
-                </div>
                 <h2 class="text-blue-600 text-lg font-semibold">Nature</h2>
                 <h1 class="text-xl font-bold">Gunung Slamet</h1>
                 <p class="text-gray-600">Jl. Overste Isdiman</p>
