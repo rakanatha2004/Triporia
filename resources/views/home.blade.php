@@ -32,6 +32,7 @@
         </div>
     </section>
     @include('components.category')
+    @include('components.travel')
     @include('components.other')
 
 </body>
