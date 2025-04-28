@@ -11,7 +11,7 @@
           <div class="hidden sm:block">
             <div class="flex space-x-4">
               <a href="/" class="rounded-md px-3 py-2 text-sm font-bold text-[#24479C] hover:text-black">Home</a>
-              <a href="#" class="rounded-md px-3 py-2 text-sm font-bold text-[#24479C] hover:text-black">About Us</a>
+              <a href="/about" class="rounded-md px-3 py-2 text-sm font-bold text-[#24479C] hover:text-black">About Us</a>
               <a href="/destination" class="rounded-md px-3 py-2 text-sm font-bold text-[#24479C] hover:text-black">Destination</a>
               <a href="#" class="rounded-md px-3 py-2 text-sm font-bold text-[#24479C] hover:text-black">Recommended</a>
             </div>
