@@ -18,19 +18,25 @@
 
 <body>
     @include('components.navbar')
-    <section class="relative flex items-center justify-center h-screen bg-[#3F6FDE]">
-        <div class="text-left md:px-26 px-4 z-10">
-            <h1 class="text-white text-2xl md:text-4xl font-bold mb-4">
+    <section
+        class="relative flex flex-col md:flex-row items-center justify-center md:h-screen h-auto bg-[#3F6FDE] overflow-hidden">
+        <!-- Container teks -->
+        <div class="w-full md:w-1/2 px-4 md:px-24 py-8 md:py-0 z-10 text-center md:text-left">
+            <h1 class="text-white text-3xl md:text-4xl font-bold mb-4">
                 Confused About Where to go on Holiday?
             </h1>
-            <h3 class="text-white text-2xl md:text-4xl font-semibold mb-4">
+            <h3 class="text-white text-2xl md:text-3xl font-semibold mb-4">
                 Let's Find the Right Vacation Spot for You
             </h3>
         </div>
-        <div>
-            <img src="{{ asset('assets/images/Location.png') }}" alt="forest background" class="">
+
+        <!-- Gambar -->
+        <div class="w-full md:w-1/2 flex justify-center">
+            <img src="{{ asset('assets/images/Location.png') }}" alt="forest background"
+                class="w-full max-w-sm md:max-w-none h-auto object-cover" />
         </div>
     </section>
+
     @include('components.category')
     @include('components.travel')
     @include('components.other')
