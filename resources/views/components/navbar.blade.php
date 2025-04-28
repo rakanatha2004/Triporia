@@ -1,5 +1,5 @@
-<section class="sticky top-0 bg-white z-50 px-4 md:px-20 shadow-sm">
-    <nav class="bg-white">
+<section id="navbar" class="sticky top-0 z-50 px-4 md:px-20 shadow-sm transition-all duration-300">
+    <nav class="transition-all">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <!-- Logo -->
@@ -29,13 +29,11 @@
               <span class="sr-only">Open main menu</span>
               <!-- Icon when closed -->
               <svg class="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
               <!-- Icon when open -->
               <svg class="hidden h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
           </div>

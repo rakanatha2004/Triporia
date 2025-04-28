@@ -12,3 +12,8 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+/* styles.css atau file CSS yang kamu gunakan */
+#navbar {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  

@@ -1,12 +1,12 @@
 <section>
-    <div class="bg-gray-100 min-h-screen p-6">
+    <div class="bg-gray-100 min-h-screen py-4 px-4 lg:px-0">
       <div class="max-w-full lg:max-w-5xl mx-auto">
         <h2 class="text-2xl lg:text-3xl font-semibold mb-8 text-center">
           Other Tourist Recommendation
         </h2>
   
         <!-- Grid: 1 kolom mobile, 2 kolom sm+ -->
-        <div class="grid grid-cols-1 sm:grid-cols-1 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-1 gap-8 mb-4">
           <!-- Card 1 -->
           <div class="bg-white rounded-3xl shadow-lg overflow-hidden p-6 flex items-start space-x-6">
             <img
@@ -38,7 +38,7 @@
               <h3 class="text-lg lg:text-xl font-semibold mb-2">Alas House</h3>
               <div class="flex items-center text-base text-red-600">
                 <img
-                  src="{{asset('assets/images//🦆 icon _location tick_.svg')}}"
+                  src="{{asset('assets/images/🦆 icon _location tick_.svg')}}"
                   alt="Location"
                   class="w-5 h-5 mr-2"
                 />
@@ -58,7 +58,7 @@
               <h3 class="text-lg lg:text-xl font-semibold mb-2">et al Coffee Purwokerto</h3>
               <div class="flex items-center text-base text-red-600">
                 <img
-                  src="{{asset('assets/images//🦆 icon _location tick_.svg')}}"
+                  src="{{asset('assets/images/🦆 icon _location tick_.svg')}}"
                   alt="Location"
                   class="w-5 h-5 mr-2"
                 />
