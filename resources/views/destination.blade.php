@@ -18,9 +18,7 @@
 
 <body>
     @include('components.navbar')
-    @include('components.detail')
-    @include('components.maps')
-
+    @include('components.other')
 </body>
 <footer>
     @include('components.footer')
