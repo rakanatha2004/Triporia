@@ -1,4 +1,5 @@
-<section class="py-6">
+<section class="py-6 bg-[#f4f7fb]">
+  
   <h2 class="text-3xl font-bold text-center mb-4">Category</h2>
 
   <!-- wrapper dengan overflow-x-auto di mobile, disable di md ke atas -->

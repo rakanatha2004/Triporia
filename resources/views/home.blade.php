@@ -38,6 +38,7 @@
     </section>
 
     @include('components.category')
+    @include('components.aboutus')
     @include('components.travel')
     @include('components.other')
 
